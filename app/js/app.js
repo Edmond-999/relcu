@@ -1,10 +1,9 @@
-$(document).ready(function() {
-  $(window).scroll(function() {
-       // Show service slider black content
-       if (($(this).scrollTop()) > 150) {
-         $('.header').addClass('fix')
-       } else {
-         $('.header').removeClass('fix')
-       }
+$(document).ready(function () {
+  $(".burger").click(function () {
+    if ($(".header-nav").hasClass("opened")) {
+      $(".header-nav").removeClass("opened");
+    } else {
+      $(".header-nav").addClass("opened");
+    }
   });
 });
