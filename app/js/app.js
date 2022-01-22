@@ -1,9 +1,9 @@
 $(document).ready(function () {
   $(".burger").click(function () {
-    if ($(".header-nav").hasClass("opened")) {
-      $(".header-nav").removeClass("opened");
+    if ($(".nav-wrapper").hasClass("opened")) {
+      $(".nav-wrapper").removeClass("opened");
     } else {
-      $(".header-nav").addClass("opened");
+      $(".nav-wrapper").addClass("opened");
     }
   });
 });
